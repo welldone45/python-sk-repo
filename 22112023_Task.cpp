@@ -23,9 +23,9 @@ class company{
 	
 	void displaydata(){
 		
-		cout<<"company id"<<id;
-		cout<<"company name"<<name;
-		cout<<"company turnover"<<turnover;
+		cout<<"\ncompany id"<<id;
+		cout<<"\ncompany name"<<name;
+		cout<<"\ncompany turnover"<<turnover;
 		
 	}
 	
@@ -54,10 +54,10 @@ class employee{
 	
 	void displaydata(){
 		
-		cout<<"employee id"<<id;
-		cout<<"employee name"<<name;
-		cout<<"employee dept"<<dept;
-		cout<<"employee sal"<<sal;
+		cout<<"\nemployee id"<<id;
+		cout<<"\nemployee name"<<name;
+		cout<<"\nemployee dept"<<dept;
+		cout<<"\nemployee sal"<<sal;
 		
 	}
 		
