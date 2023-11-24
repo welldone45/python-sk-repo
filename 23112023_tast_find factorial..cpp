@@ -1,29 +1,33 @@
 #include<iostream>
 using namespace std;
 class fact{
-	
+
+
 	public:
+		int num,i,sum=1;
 		
 		void inputdata(){
 		
-		int num;
-		cout<<"enter the number : ";
-		cin>>num;
-			
-		}
+			cout<<"enter number : ";
+			cin>>num;	
+					
+			for(i=1;i<=num;i++){
+				
+				sum=sum * i;
+			}
 		
-		void displaydata(){
-			
-		cout<<"factorial val is : "<<num;
-
 		}
 
+		void displaydata(){
+		
+			cout<<"fact value is : "<<sum;
+		}
 };
 
-main(){
+int main(){
 	
-	int num;
 	fact fobj;
 	fobj.inputdata();
 	fobj.displaydata();
+	
 }
