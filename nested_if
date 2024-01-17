@@ -1,0 +1,25 @@
+'''
+
+Nested if statement:-
+
+syntax:-
+
+    if condition:
+        if condition:
+            statement
+        else:
+            statement
+    else:
+        statement
+
+'''
+a=100
+b=200
+
+if a==100:
+    if b==200:
+        print("the value of a is 100 and b is 200")
+    else:
+        print("Nested else")
+else:
+    print("Main else")

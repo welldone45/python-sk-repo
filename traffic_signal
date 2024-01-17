@@ -1,0 +1,9 @@
+traffic_signal=input("Enter a signal :")
+if traffic_signal=="Red":
+    print("Stop your vehicle")
+elif traffic_signal=="Yellow":
+    print("Stop and then go")
+elif traffic_signal=="Green":
+    print("You can go")
+else:
+    print("Invalid signal")

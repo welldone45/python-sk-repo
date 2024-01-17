@@ -1,0 +1,22 @@
+function is a block of code that code are used to again and again
+
+there are two types of functions
+
+1) built in function : which is predefined in system
+    e.g. print(), input()
+2) userdefined function : a function which is create by user 
+
+function categories : 
+there are mainly 4 categories of functions
+
+1) function without parameters and function without return types
+2) function with parameters and function without return types
+3) function without parameters and function with return types
+4) function with parameters and function with return types 
+
+function - tuple as a parameters and function as a dictionary parameters
+
+*args and **kwargs
+
+args : arguments (tuple as a parameters)
+kwargs : key with arguments (dictionary as a parameters)
